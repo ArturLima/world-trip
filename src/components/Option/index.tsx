@@ -1,6 +1,6 @@
 import { Box, HStack, Image, Text } from "@chakra-ui/react";
 
-export function Option() {
+export const Option = () => {
   return (
     <HStack width="1160px" height="145px" mt={20} spacing="120">
       <Box>
@@ -35,4 +35,4 @@ export function Option() {
       </Box>
     </HStack>
   );
-}
+};
